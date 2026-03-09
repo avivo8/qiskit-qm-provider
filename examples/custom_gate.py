@@ -11,7 +11,7 @@ from qiskit_qm_provider import QMProvider, QMInstructionProperties
 from quam.components import QubitPair
 
 # 1. Set up provider and backend (use your Quam state path or another provider)
-provider = QMProvider("/path/to/quam/state")
+provider = QMProvider("../../iqcc-quam-state")
 backend = provider.get_backend()
 
 # 2. Define an opaque parametric two-qubit gate at the circuit level
